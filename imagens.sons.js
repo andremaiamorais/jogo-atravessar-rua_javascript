@@ -12,15 +12,15 @@ let somPonto;
 let somColisao;
 
 function preload(){
-  imagemEstrada = loadImage("Imagens/estrada.png");
-  imagemAtor = loadImage("Imagens/ator-1.png");
-  imagemCarro = loadImage("Imagens/carro-1.png");
-  imagemCarro2 = loadImage("Imagens/carro-2.png");
-  imagemCarro3 = loadImage("Imagens/carro-3.png");
+  imagemEstrada = loadImage("estrada.png");
+  imagemAtor = loadImage("ator-1.png");
+  imagemCarro = loadImage("carro-1.png");
+  imagemCarro2 = loadImage("carro-2.png");
+  imagemCarro3 = loadImage("carro-3.png");
   
-  somTrilha = loadSound("Sons/trilha.mp3");
-  somPonto = loadSound("Sons/pontos.wav");
-  somColisao = loadSound("Sons/colidiu.mp3");
+  somTrilha = loadSound("trilha.mp3");
+  somPonto = loadSound("pontos.wav");
+  somColisao = loadSound("colidiu.mp3");
   
   imagemCarros = [imagemCarro, imagemCarro2, imagemCarro3, imagemCarro, imagemCarro2, imagemCarro3];
 }
